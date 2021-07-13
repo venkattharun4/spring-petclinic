@@ -20,7 +20,7 @@
     <!-- Generic properties -->
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <sonar.host.url>http://13.126.197.78:9000/</sonar.host.url>
+    <sonar.host.url>https://13.126.197.78:9000/</sonar.host.url>
 		<sonar.login>be01bef93a0a13d0a937e06145875defe8790843</sonar.login>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
