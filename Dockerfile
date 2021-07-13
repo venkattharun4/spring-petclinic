@@ -1,6 +1,6 @@
 FROM maven:3-jdk-8 as mvn
 RUN git clone https://github.com/venkattharun4/spring-petclinic.git
-RUN cd spring-petclinic && mvn package
+RUN cd spring-petclinic && mvn package -Dcheckstyle.skip
 
 FROM openjdk:8-alpine
 LABEL AUTHOR="Tharun"
