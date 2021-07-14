@@ -7,4 +7,4 @@ LABEL AUTHOR="Tharun"
 COPY --from=mvn /spring-petclinic/target/spring-petclinic*.jar /spring-petclinic.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar"]
-CMD ["/spring-petclinic.jar"]
+CMD ["/spring-petclinic.jar"].
