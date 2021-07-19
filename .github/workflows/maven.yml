@@ -25,9 +25,10 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Build and push Docker image  
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: venkattharun/git-actions-sp
+        image: venkattharun/github-actions-sp
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
