@@ -382,6 +382,7 @@
               </configuration>
             </plugin>
           </plugins>
+          <finalName>petclinic</finalName> 
         </pluginManagement>
       </build>
     </profile>
